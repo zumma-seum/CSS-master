@@ -1,0 +1,46 @@
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/styles.scss ***!
+  \***********************************************************************************************************/
+body {
+  background-color: #e7473c;
+  color: yellow;
+}
+
+h1 {
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+}
+
+.box:hover {
+  background-color: goldenrod;
+}
+.box h2 {
+  color: blue;
+}
+.box button {
+  color: red;
+  margin: 10px;
+}
+.box button:hover {
+  color: pink;
+}
+
+a {
+  margin-bottom: 10px;
+}
+a:nth-child(odd) {
+  text-decoration: none;
+  display: block;
+  color: beige;
+}
+a:nth-child(even) {
+  text-decoration: none;
+  display: block;
+  color: green;
+}
